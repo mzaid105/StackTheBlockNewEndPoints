@@ -56,12 +56,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Test1.asm.loader.js";
+      var loaderUrl = buildUrl + "/Test2.asm.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Test1.data.unityweb",
-        frameworkUrl: buildUrl + "/Test1.asm.framework.js.unityweb",
-        codeUrl: buildUrl + "/Test1.asm.js.unityweb",
-        memoryUrl: buildUrl + "/Test1.asm.mem.unityweb",
+        dataUrl: buildUrl + "/Test2.data.unityweb",
+        frameworkUrl: buildUrl + "/Test2.asm.framework.js.unityweb",
+        codeUrl: buildUrl + "/Test2.asm.js.unityweb",
+        memoryUrl: buildUrl + "/Test2.asm.mem.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Stack The Blocks",
@@ -81,7 +81,7 @@
         // Avoid draining fillrate performance on mobile devices,
         // and default/override low DPI mode on mobile browsers.
         config.devicePixelRatio = 1;
-      
+        
       } else {
         canvas.style.width = "1080px";
         canvas.style.height = "1920px";
